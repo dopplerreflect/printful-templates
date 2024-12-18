@@ -1,0 +1,22 @@
+{
+  "name": "@dopplerreflect/printful-templates",
+  "version": "0.0.1",
+  "description": "Typescript/JSX app to render Printful product templates into an SVG image.",
+  "main": "index.tsx",
+  "type": "module",
+  "scripts": {
+    "test": "exit 0",
+    "install": "mkdir -p $INIT_CWD/images && cp -r printful.com.templates $INIT_CWD/images"
+  },
+  "author": "dopplerreflect@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.16",
+    "@types/bun": "latest",
+    "@types/react-dom": "^18.3.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
