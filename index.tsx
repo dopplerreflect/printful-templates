@@ -30,7 +30,7 @@ export default ({
       {...{ width, height }}
     >
       <image
-        href={`file://${process.cwd()}/images/printful.com.templates/${image}.png`}
+        href={`file://${process.cwd()}/images/svg/printful.com.templates/${image}.png`}
         {...{ width, height }}
       />
     </pattern>

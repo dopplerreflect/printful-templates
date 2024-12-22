@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "exit 0",
-    "install": "mkdir -p $INIT_CWD/images && cp -r printful.com.templates $INIT_CWD/images"
+    "install": "mkdir -p $INIT_CWD/images/svg && cp -r printful.com.templates $INIT_CWD/images/svg"
   },
   "author": "dopplerreflect@gmail.com",
   "license": "MIT",
