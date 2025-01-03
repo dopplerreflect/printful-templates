@@ -1,6 +1,6 @@
 {
   "name": "@dopplerreflect/printful-templates",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Typescript/JSX app to render Printful product templates into an SVG image.",
   "main": "index.tsx",
   "type": "module",
