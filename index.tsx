@@ -6,14 +6,13 @@ type TemplateName =
   | "all-over_print_hoodie/hoodie_label_panel_template"
   | "all-over_print_hoodie/hoodie_left_sleeve_template"
   | "all-over_print_hoodie/hoodie_right_sleeve_template"
-  | "hockey_fan_jersey/Hockey_jersey_customer_template_back.png"
-  | "hockey_fan_jersey/Hockey_jersey_customer_template_front.png"
-  | "hockey_fan_jersey/Hockey_jersey_customer_template_left_sleeve.png"
-  | "hockey_fan_jersey/Hockey_jersey_customer_template_right_sleeve.png"
-  | "hockey_fan_jersey/Hockey_jersey_customer_template_yoke.png"
-  | "hockey_fan_jersey/Hockey_jersey_guideline.pdf"
-  | "hockey_fan_jersey/logo_template.png"
-  | "hockey_fan_jersey/Outside_label_customer_template.png";
+  | "hockey_fan_jersey/Hockey_jersey_customer_template_back"
+  | "hockey_fan_jersey/Hockey_jersey_customer_template_front"
+  | "hockey_fan_jersey/Hockey_jersey_customer_template_left_sleeve"
+  | "hockey_fan_jersey/Hockey_jersey_customer_template_right_sleeve"
+  | "hockey_fan_jersey/Hockey_jersey_customer_template_yoke"
+  | "hockey_fan_jersey/logo_template"
+  | "hockey_fan_jersey/Outside_label_customer_template";
 
 type Props = {
   image: TemplateName;
